@@ -41,7 +41,7 @@ makes it easier to serve the files by a web server.*
 * The app is having only single page  i.e `index.html` in app folder.
 * This app use simple local static web server i.e Http-Server serve from app root directory.
 * For displaying bootstrap alert, using angular js directive.
-* Alert title, type of bootstrap alert provided from repective controller.
+* Alert title, type of bootstrap alert provided from respective controller.
 * Alert will disappear after certain intervals by showing status of operation.
 * Non hiddable alert which will not hide by setting `hiddable` to false.
 
