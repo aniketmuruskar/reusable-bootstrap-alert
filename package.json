@@ -1,0 +1,26 @@
+{
+  "name": "reusable-bootstrap-alert",
+  "version": "1.0.0",
+  "description": "Reusable twitter bootstrap alert using angularjs application",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aniketmuruskar/reusable-bootstrap-alert.git"
+  },
+  "keywords": [
+    "bootstrap",
+    "alert"
+  ],
+  "author": "Aniket Muruskar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aniketmuruskar/reusable-bootstrap-alert/issues"
+  },
+  "homepage": "https://github.com/aniketmuruskar/reusable-bootstrap-alert#readme",
+  "dependencies": {
+    "http-server": "^0.9.0"
+  },
+  "scripts": {
+    "start": "http-server ./app -a localhost -p 8000 -c-1"
+  }
+}

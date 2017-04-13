@@ -1,0 +1,26 @@
+{
+  "name": "reusable-bootstrap-alert",
+  "description": "Reusable twitter bootstrap alert using angularjs application",
+  "main": "index.js",
+  "authors": [
+    "Aniket Muruskar"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "bootstrap",
+    "alert"
+  ],
+  "homepage": "https://github.com/aniketmuruskar/reusable-bootstrap-alert",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "angular": "^1.6.4"
+  }
+}

@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en" ng-app="alertApp">
+  <head>
+    <meta charset="utf-8">
+    <title>Bootstarp Alert Directive</title>
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css" />
+  </head>
+  <body>
+    <div class="container" ng-controller="AlertController">
+      <div class="row">
+        <div class="col-md-6 col-sm-10">
+          <h4 align="center">Resuable Bootstarp Alert Directive</h4>
+          <alert-msg alert="alertSuccess" ng-if="alertSuccess.show"></alert-msg>
+          <alert-msg alert="alertInfo" ng-if="alertInfo.show"></alert-msg>
+          <alert-msg alert="alertDanger" ng-if="alertDanger.show"></alert-msg>
+          <alert-msg alert="alertWarning" ng-if="alertWarning.show"></alert-msg>
+        </div>
+      </div>
+    </div>
+    <script src="bower_components/angular/angular.min.js"></script>
+    <script src="bootstrap-alert/bootstrap.alert.module.js"></script>
+    <script src="bootstrap-alert/bootstrap.alert.directive.js"></script>
+    <script src="app.module.js"></script>
+  </body>
+</html>
